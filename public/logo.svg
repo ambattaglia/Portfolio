@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title id="title">Andrea M Battaglia logo</title>
+  <rect width="120" height="120" rx="18" fill="#050505"/>
+  <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="9" d="M18 88 48 21c2-5 8-5 10 0l30 67"/>
+    <path stroke-width="9" d="M40 65h31c14 0 25-8 25-20S85 25 71 25H52"/>
+    <path stroke-width="9" d="M48 64c-16 0-26 10-26 24"/>
+    <path stroke-width="9" d="M48 64h24c15 0 26 9 26 22S87 109 72 109H47"/>
+  </g>
+</svg>
