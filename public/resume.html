@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrea M Battaglia | Resume</title>
+    <style>
+      :root {
+        --bg: #f8fafc;
+        --panel: #ffffff;
+        --text: #0f172a;
+        --muted: #475569;
+        --accent: #0f766e;
+        --line: #e2e8f0;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      .page {
+        max-width: 1000px;
+        margin: 32px auto;
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        box-shadow: 0 14px 32px rgba(15, 23, 42, 0.06);
+        overflow: hidden;
+      }
+
+      .header {
+        padding: 32px 40px 20px;
+        border-bottom: 1px solid var(--line);
+        background: linear-gradient(135deg, #f0fdfa 0%, #ffffff 100%);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        letter-spacing: -0.05em;
+      }
+
+      .subhead {
+        margin-top: 8px;
+        font-size: 1.1rem;
+        color: var(--accent);
+        font-weight: 700;
+      }
+
+      .meta {
+        margin-top: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .content {
+        padding: 28px 40px 40px;
+      }
+
+      .section {
+        margin-bottom: 26px;
+      }
+
+      .section h2 {
+        margin: 0 0 12px;
+        font-size: 0.98rem;
+        letter-spacing: 0.11em;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+
+      .section p, .section li {
+        color: var(--text);
+        font-size: 0.97rem;
+      }
+
+      .section ul {
+        margin: 0;
+        padding-left: 22px;
+      }
+
+      .two-col {
+        display: grid;
+        grid-template-columns: 1.3fr 0.9fr;
+        gap: 32px;
+      }
+
+      .job {
+        margin-bottom: 18px;
+      }
+
+      .job-header {
+        display: flex;
+        justify-content: space-between;
+        gap: 14px;
+        align-items: baseline;
+        margin-bottom: 7px;
+      }
+
+      .job-title {
+        font-weight: 700;
+      }
+
+      .job-company {
+        color: var(--accent);
+        font-weight: 600;
+      }
+
+      .job-period {
+        color: var(--muted);
+        font-size: 0.83rem;
+        white-space: nowrap;
+      }
+
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .tag {
+        background: #ecfeff;
+        color: #115e59;
+        border: 1px solid #a7f3d0;
+        border-radius: 999px;
+        padding: 6px 10px;
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+
+      @media (max-width: 720px) {
+        .page { margin: 12px; border-radius: 12px; }
+        .header, .content { padding-left: 20px; padding-right: 20px; }
+        .two-col { grid-template-columns: 1fr; }
+        .job-header { flex-direction: column; align-items: flex-start; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <h1>Andrea M Battaglia</h1>
+        <div class="subhead">Frontend Engineer | Operations Leader</div>
+        <div class="meta">
+          <span>Hamburg, NY</span>
+          <span>•</span>
+          <span>am.battaglia@yahoo.com</span>
+          <span>•</span>
+          <span>github.com/ambattaglia</span>
+          <span>•</span>
+          <span>linkedin.com/in/ambattaglia</span>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="section">
+          <h2>Summary</h2>
+          <p>
+            Frontend Engineer with 10+ years of leadership and operations experience, recently completing full-stack frontend training.
+            I build responsive, high-performance interfaces with React, TypeScript, and modern frontend tooling while bringing strong
+            process improvement, cross-functional collaboration, and customer-focused execution to every project.
+          </p>
+        </section>
+
+        <div class="two-col">
+          <div>
+            <section class="section">
+              <h2>Experience</h2>
+
+              <div class="job">
+                <div class="job-header">
+                  <div>
+                    <span class="job-title">Frontend Engineer</span><br />
+                    <span class="job-company">Skinstric AI</span>
+                  </div>
+                  <span class="job-period">Aug 2026 – Sept 2026</span>
+                </div>
+                <ul>
+                  <li>Architected a real-time skin analysis platform using Next.js and OpenAI Vision API for personalized skincare recommendations.</li>
+                  <li>Built responsive, polished interfaces with TailwindCSS, GSAP, and modular component design patterns.</li>
+                  <li>Optimized performance and user flow using Next.js Server Components, Lottie animations, and streamlined interaction patterns.</li>
+                  <li>Developed reusable product components and analysis transitions to improve clarity and onboarding across the experience.</li>
+                </ul>
+              </div>
+
+              <div class="job">
+                <div class="job-header">
+                  <div>
+                    <span class="job-title">Vice President, Line Manager II</span><br />
+                    <span class="job-company">M&T Bank</span>
+                  </div>
+                  <span class="job-period">2019 – Dec 2025</span>
+                </div>
+                <ul>
+                  <li>Directed operations for auto, RV, and boat loan workflows, ensuring documentation accuracy, compliance, and service quality.</li>
+                  <li>Managed call center operations handling loan support, escalations, and high-volume monetary transactions.</li>
+                  <li>Conducted QC reviews, risk mitigation reviews, and performance analysis to improve workflow efficiency and reliability.</li>
+                  <li>Collaborated with underwriting, risk, technology, and branch partners to streamline operations and reduce friction.</li>
+                </ul>
+              </div>
+
+              <div class="job">
+                <div class="job-header">
+                  <div>
+                    <span class="job-title">Regional Manager</span><br />
+                    <span class="job-company">Solidifi</span>
+                  </div>
+                  <span class="job-period">2013 – 2019</span>
+                </div>
+                <ul>
+                  <li>Managed relationships with 200+ appraisers while supporting service quality, compliance, and operational consistency.</li>
+                  <li>Oversaw the full appraisal lifecycle, including assignment, monitoring, quality assurance, and escalation management.</li>
+                  <li>Analyzed regional metrics to identify improvement opportunities and support stronger team performance.</li>
+                </ul>
+              </div>
+
+              <div class="job">
+                <div class="job-header">
+                  <div>
+                    <span class="job-title">Regional Field Services Manager / Quality Assurance Agent</span><br />
+                    <span class="job-company">Mueller Services</span>
+                  </div>
+                  <span class="job-period">2007 – 2013</span>
+                </div>
+                <ul>
+                  <li>Managed 75+ employees across New York State, overseeing scheduling, training, payroll, performance, and daily operations.</li>
+                  <li>Ensured timely completion of 2,000+ weekly loss-control surveys while maintaining quality standards and service expectations.</li>
+                  <li>Reviewed survey reports for accuracy, coached staff on performance improvement, and supported onboarding and operational consistency.</li>
+                </ul>
+              </div>
+            </section>
+          </div>
+
+          <div>
+            <section class="section">
+              <h2>Skills</h2>
+              <div class="skills">
+                <span class="tag">React</span>
+                <span class="tag">Next.js</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">TailwindCSS</span>
+                <span class="tag">GSAP</span>
+                <span class="tag">Lottie</span>
+                <span class="tag">Responsive Design</span>
+                <span class="tag">Accessibility</span>
+                <span class="tag">REST APIs</span>
+                <span class="tag">OpenAI Vision API</span>
+                <span class="tag">GitHub</span>
+                <span class="tag">Figma</span>
+                <span class="tag">Vercel</span>
+                <span class="tag">Power BI</span>
+                <span class="tag">Quality Assurance</span>
+                <span class="tag">Operations Management</span>
+              </div>
+            </section>
+
+            <section class="section">
+              <h2>Education</h2>
+              <div class="job">
+                <div class="job-header">
+                  <div>
+                    <span class="job-title">Frontend Development Certificate of Graduation</span><br />
+                    <span class="job-company">FES Institute</span>
+                  </div>
+                  <span class="job-period">Completed 2026</span>
+                </div>
+              </div>
+
+              <div class="job">
+                <div class="job-header">
+                  <div>
+                    <span class="job-title">Frontend Development Training</span><br />
+                    <span class="job-company">Frontend Simplified</span>
+                  </div>
+                  <span class="job-period">2026</span>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

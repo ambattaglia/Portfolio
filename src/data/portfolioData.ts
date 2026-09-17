@@ -40,13 +40,13 @@ export interface Certification {
 export const portfolioData = {
   personalInfo: {
     name: "Andrea M Battaglia",
-    role: "Frontend Engineer & Operations Leader",
-    tagline: "Building responsive, high-performance interfaces with AI-powered features and clean component architecture.",
+    role: "Frontend Engineer building responsive, high-performance interfaces with React and TypeScript",
+    tagline: "Operations leader with 10+ years of experience driving process improvements, cross-functional execution, and high-quality customer experiences.",
     bio: "Frontend Engineer with 10+ years of leadership and operations experience, newly completing full-stack frontend training. Specialized in crafting responsive, high-performance interfaces using modern frameworks like React and Next.js, integrating AI-powered features, and optimizing user experience through animation, accessibility, and component architecture. Proven ability to drive cross-functional collaboration and deliver production-ready solutions.",
     location: "Hamburg, NY",
     status: "Open to remote opportunities",
     email: "am.battaglia@yahoo.com",
-    resumeUrl: "#",
+    resumeUrl: "/andrea-battaglia-resume.pdf",
     socials: {
       github: "https://github.com/ambattaglia",
       linkedin: "https://linkedin.com/in/ambattaglia",
@@ -95,14 +95,14 @@ export const portfolioData = {
       longDescription: "Skinstric combines a refined editorial interface with an AI skin analysis workflow and personalized skincare recommendations. The experience guides users from discovery through an interactive assessment and tailored routine.",
       highlights: [
         "Built a real-time skin analysis experience with Next.js and OpenAI Vision API",
-        "Achieved 98% detection accuracy across diverse skin conditions",
-        "Reduced analysis time to under 2 seconds with optimized rendering and animation"
+        "Created a polished AI workflow for evaluating skin conditions and recommendations",
+        "Optimized the experience for fast feedback and smoother interaction flow"
       ],
       technologies: ["Next.js", "TypeScript", "TailwindCSS", "GSAP", "Lottie", "OpenAI Vision API"],
       liveUrl: "https://skinstric-project-ashen.vercel.app/",
       featured: true,
       image: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=1200&q=80",
-      metrics: "98% Detection Accuracy"
+      metrics: "AI Skin Analysis"
     },
     {
       id: "ultraverse-nft-market",
@@ -183,28 +183,16 @@ export const portfolioData = {
       role: "Frontend Engineer",
       company: "Skinstric AI",
       location: "Remote",
-      period: "Aug 2026 - Sept 2026",
+      period: "Feb 2026 - Sept 2026",
       description: [
-        "Architected a real-time skin analysis platform using Next.js and OpenAI Vision API, achieving 98% detection accuracy across diverse skin conditions.",
-        "Built responsive UI with TailwindCSS, GSAP, and modular component patterns, improving user engagement by 60%.",
-        "Optimized performance using Next.js Server Components and Lottie animations, reducing analysis time to under 2 seconds.",
-        "Developed a custom GSAP timeline animation system for seamless analysis transitions, increasing user retention by 40%.",
-        "Designed a reusable component library for skincare product displays, enabling rapid A/B testing of recommendation layouts.",
-        "Implemented an efficient image-processing pipeline combining OpenAI Vision API with 4D Mini model, enhancing accuracy in skin tone and texture detection."
+        "Architected a real-time skin analysis platform using Next.js and OpenAI Vision API for personalized skincare recommendations.",
+        "Built responsive UI with TailwindCSS, GSAP, and modular component patterns to create a more engaging user journey.",
+        "Optimized performance using Next.js Server Components and Lottie animations for smoother interactions and faster feedback.",
+        "Developed a custom GSAP timeline animation system for seamless analysis transitions and more intuitive onboarding.",
+        "Designed a reusable component library for skincare product displays, enabling rapid iteration on recommendation layouts.",
+        "Implemented an efficient image-processing pipeline combining OpenAI Vision API with 4D Mini model to improve skin tone and texture analysis."
       ],
       technologies: ["Next.js", "TypeScript", "TailwindCSS", "GSAP", "Lottie", "OpenAI Vision API", "Component Architecture"]
-    },
-    {
-      role: "Frontend Engineer in Training",
-      company: "Frontend Simplified",
-      location: "Remote",
-      period: "2026",
-      description: [
-        "Completed structured, project-based training in HTML, CSS, JavaScript, React, responsive design, and modern frontend workflows.",
-        "Built portfolio projects emphasizing clean UI, accessibility, and mobile-first design.",
-        "Practiced professional developer habits including Git/GitHub, debugging, and workflow optimization."
-      ],
-      technologies: ["HTML5", "CSS3", "JavaScript", "React", "Responsive Design", "Git", "GitHub"]
     },
     {
       role: "Vice President, Line Manager II",
@@ -256,6 +244,13 @@ export const portfolioData = {
       period: "Completed 2026",
       description: "Successfully completed the Frontend Development Bootcamp, including a practical internship in a professional environment and demonstrated proficiency in modern frontend technologies.",
       skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Node.js", "TypeScript", "Redux"]
+    },
+    {
+      title: "Frontend Development Training",
+      issuer: "Frontend Simplified",
+      period: "2026",
+      description: "Completed a structured, project-based program focused on HTML, CSS, JavaScript, React, responsive design, and modern frontend workflows with hands-on portfolio work.",
+      skills: ["HTML5", "CSS3", "JavaScript", "React", "Responsive Design", "Git", "GitHub", "Accessibility"]
     }
   ] as Certification[]
 };
