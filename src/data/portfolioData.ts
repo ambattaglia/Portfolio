@@ -156,11 +156,6 @@ export const portfolioData = {
       liveUrl: "https://sienna-sigma.vercel.app/",
       featured: true,
       image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80",
-      imageSources: [
-        "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=80"
-      ],
       metrics: "Luxury Brand UX"
     },
   ] as Project[],
