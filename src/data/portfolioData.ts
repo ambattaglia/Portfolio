@@ -140,6 +140,29 @@ export const portfolioData = {
       image: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1200&q=80",
       metrics: "Music Discovery App"
     },
+    {
+      id: "sienna-makeup-studio",
+      title: "Sienna Studio",
+      subtitle: "Luxury beauty brand website with conversion-first design",
+      category: "Frontend",
+      description: "A premium beauty brand experience built to feel elevated, editorial, and highly conversion-focused for bridal, editorial, and event bookings.",
+      longDescription: "Sienna Studio is a polished frontend concept built around high-end branding, strong visual hierarchy, and conversion-focused UX. The experience combines luxury storytelling with clear service positioning, helping visitors quickly understand offerings, pricing, and booking intent while preserving a refined, premium aesthetic from first impression to final action.",
+      highlights: [
+        "Designed a luxury visual system with strong editorial composition and premium brand cues",
+        "Built a conversion-optimized flow to guide users from discovery to quote and booking intent",
+        "Developed a responsive, polished experience tailored to premium beauty and lifestyle audiences"
+      ],
+      technologies: ["React", "TypeScript", "TailwindCSS", "Responsive Design", "UI/UX", "Vercel"],
+      liveUrl: "https://sienna-sigma.vercel.app/",
+      featured: true,
+      image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80",
+      imageSources: [
+        "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=80"
+      ],
+      metrics: "Luxury Brand UX"
+    },
   ] as Project[],
 
   skillCategories: [
