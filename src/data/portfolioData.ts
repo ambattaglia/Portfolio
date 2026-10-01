@@ -155,7 +155,7 @@ export const portfolioData = {
       technologies: ["React", "TypeScript", "TailwindCSS", "Responsive Design", "UI/UX", "Vercel"],
       liveUrl: "https://sienna-sigma.vercel.app/",
       featured: true,
-      image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80",
+      image: "/Screenshot 2026-10-01 142407.png",
       metrics: "Luxury Brand UX"
     },
   ] as Project[],
