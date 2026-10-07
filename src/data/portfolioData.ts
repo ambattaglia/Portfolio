@@ -12,6 +12,7 @@ export interface Project {
   featured: boolean;
   image: string;
   imageSources?: string[];
+  videoUrl?: string;
   metrics?: string;
 }
 
@@ -158,6 +159,24 @@ export const portfolioData = {
       image: "/photo.jpg",
       metrics: "Luxury Brand UX"
     },
+    {
+      id: "snowboarding-capcut",
+      title: "Snowboarding CapCut Experience",
+      subtitle: "Short-form video editing and visual storytelling",
+      category: "Frontend",
+      description: "A polished CapCut video project featuring edited motion, visual transitions, and a fast-paced storytelling experience.",
+      longDescription: "This project highlights a CapCut-produced short-form video with a clean visual narrative, synchronized edits, and a responsive presentation suitable for portfolio and social media use.",
+      highlights: [
+        "Edited a complete short-form video using CapCut",
+        "Created a polished visual sequence with transitions and pacing",
+        "Prepared the finished video for portfolio and social media presentation"
+      ],
+      technologies: ["CapCut", "Video Editing", "Responsive Design", "Creative Direction"],
+      featured: true,
+      image: "/photo.jpg",
+      videoUrl: "/videos/Snowboarding.mp4",
+      metrics: "CapCut Video Project"
+    },
   ] as Project[],
 
   skillCategories: [
@@ -179,6 +198,7 @@ export const portfolioData = {
         { name: "Sass / SCSS", level: 88 },
         { name: "GSAP", level: 85 },
         { name: "Lottie Animations", level: 82 },
+        { name: "CapCut", level: 90 },
         { name: "Component Architecture", level: 90 },
         { name: "Accessibility (A11y)", level: 88 }
       ]

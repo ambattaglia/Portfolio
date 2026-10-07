@@ -134,7 +134,16 @@ export const ProjectsSection: FC = () => {
                   className="relative h-52 w-full overflow-hidden bg-slate-100 dark:bg-slate-800 cursor-pointer"
                   onClick={() => setActiveModalProject(project)}
                 >
-                  {project.imageSources ? (
+                  {project.videoUrl ? (
+                    <video
+                      src={project.videoUrl}
+                      poster={project.image}
+                      controls
+                      preload="metadata"
+                      playsInline
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  ) : project.imageSources ? (
                     <div className="flex w-full h-full transition-transform duration-500 group-hover:scale-105">
                       {project.imageSources.map((imageSource, index) => (
                         <img

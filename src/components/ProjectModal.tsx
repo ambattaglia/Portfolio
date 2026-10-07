@@ -96,6 +96,19 @@ export const ProjectModal: FC<ProjectModalProps> = ({ project, onClose }) => {
             </p>
           </div>
 
+          {project.videoUrl && (
+            <div className="overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-700 bg-slate-950">
+              <video
+                src={project.videoUrl}
+                poster={project.image}
+                controls
+                preload="metadata"
+                playsInline
+                className="aspect-video w-full"
+              />
+            </div>
+          )}
+
           {/* Key Architecture Highlights */}
           {project.highlights && project.highlights.length > 0 && (
             <div className="space-y-3">
