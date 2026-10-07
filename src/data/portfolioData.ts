@@ -173,7 +173,7 @@ export const portfolioData = {
       ],
       technologies: ["CapCut", "Video Editing", "Responsive Design", "Creative Direction"],
       featured: true,
-      image: "/photo.jpg",
+      image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80",
       videoUrl: "/videos/Snowboarding.mp4",
       metrics: "CapCut Video Project"
     },
