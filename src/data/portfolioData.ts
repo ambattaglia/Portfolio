@@ -2,7 +2,7 @@ export interface Project {
   id: string;
   title: string;
   subtitle: string;
-  category: 'Full Stack' | 'AI / ML' | 'Frontend' | 'Cloud & Tools';
+  category: 'Full Stack' | 'AI / ML' | 'Frontend' | 'Video Editing' | 'Cloud & Tools';
   description: string;
   longDescription: string;
   highlights: string[];
@@ -61,7 +61,7 @@ export const portfolioData = {
     ]
   },
 
-  categories: ['All', 'Full Stack', 'AI / ML', 'Frontend', 'Cloud & Tools'] as const,
+  categories: ['All', 'Full Stack', 'AI / ML', 'Frontend', 'Video Editing', 'Cloud & Tools'] as const,
 
   projects: [
     {
@@ -163,7 +163,7 @@ export const portfolioData = {
       id: "snowboarding-capcut",
       title: "Snowboarding CapCut Experience",
       subtitle: "Short-form video editing and visual storytelling",
-      category: "Frontend",
+      category: "Video Editing",
       description: "A polished CapCut video project featuring edited motion, visual transitions, and a fast-paced storytelling experience.",
       longDescription: "This project highlights a CapCut-produced short-form video with a clean visual narrative, synchronized edits, and a responsive presentation suitable for portfolio and social media use.",
       highlights: [
@@ -179,9 +179,9 @@ export const portfolioData = {
     },
     {
       id: "dance-capcut",
-      title: "Dance Performance",
+      title: "Dance is the universal language",
       subtitle: "CapCut video editing and movement showcase",
-      category: "Frontend",
+      category: "Video Editing",
       description: "A cinematic dance performance project edited and presented through modern visual storytelling.",
       longDescription: "This portfolio project presents a dance performance through a polished CapCut-edited video experience, combining creative pacing, visual transitions, and a strong performance-focused presentation.",
       highlights: [
@@ -191,7 +191,7 @@ export const portfolioData = {
       ],
       technologies: ["CapCut", "Video Editing", "Creative Direction", "Responsive Design"],
       featured: true,
-      image: "/snowboarding-reference.jpg",
+      image: "/dance-cover.jpg",
       videoUrl: "/videos/Dance.mp4",
       metrics: "CapCut Dance Project"
     },
