@@ -177,6 +177,24 @@ export const portfolioData = {
       videoUrl: "/videos/Snowboarding.mp4",
       metrics: "CapCut Video Project"
     },
+    {
+      id: "dance-capcut",
+      title: "Dance Performance",
+      subtitle: "CapCut video editing and movement showcase",
+      category: "Frontend",
+      description: "A cinematic dance performance project edited and presented through modern visual storytelling.",
+      longDescription: "This portfolio project presents a dance performance through a polished CapCut-edited video experience, combining creative pacing, visual transitions, and a strong performance-focused presentation.",
+      highlights: [
+        "Edited a complete dance performance with CapCut",
+        "Created a polished visual sequence with movement-focused pacing",
+        "Prepared the finished video for portfolio and social media presentation"
+      ],
+      technologies: ["CapCut", "Video Editing", "Creative Direction", "Responsive Design"],
+      featured: true,
+      image: "/snowboarding-reference.jpg",
+      videoUrl: "/videos/Dance.mp4",
+      metrics: "CapCut Dance Project"
+    },
   ] as Project[],
 
   skillCategories: [
