@@ -138,7 +138,7 @@ export const portfolioData = {
       technologies: ["React", "JavaScript", "CSS", "Responsive Design", "Vercel"],
       liveUrl: "https://react-music-discovery-client.vercel.app/",
       featured: true,
-      image: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1200&q=80",
+      image: "https://customneon.com.au/media/catalog/product/cache/c40baf59e221f2cfcdded4b69a10db55/m/u/musicnotes-customneon.jpg",
       metrics: "Music Discovery App"
     },
     {
